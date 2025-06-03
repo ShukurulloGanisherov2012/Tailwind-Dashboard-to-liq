@@ -24,7 +24,7 @@ export default function Login() {
     e.preventDefault();
     // Add your login logic here
     if (email && password) {
-      navigate('/dashboard');
+      navigate('/');
     }
     
   };

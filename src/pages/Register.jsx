@@ -25,7 +25,7 @@ export default function Login() {
     e.preventDefault();
     // Add your login logic here
     if (email && password) {
-      navigate('/dashboard');
+      navigate('/');
     }
     
   };
@@ -57,7 +57,7 @@ export default function Login() {
           </Button>
           <Typography variant="small" className="mt-6 flex justify-center">
             Already have an account?
-            <Link to='/'>
+            <Link to='/login'>
               <Typography
                 as="a"
                 href="#signup"
